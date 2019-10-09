@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {LayoutComponent} from './layout/layout.component';
+import {VehicleRequestComponent} from './pages/vehicle-request/vehicle-request.component';
 
 
 const routes: Routes = [
   {
     path: '',
-    component: LayoutComponent,
+    component: VehicleRequestComponent,
   }
 ];
 

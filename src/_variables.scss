@@ -1,0 +1,40 @@
+//Colors
+$white: #e6e6fa; // Lavender White
+$blue: #1e90ff; // Dodger Blue
+$red: #ff4500; // Orange red
+$green: #228b22; // Forest Green
+$black: #19212b;
+$light-black: #262f3d;
+$light-red: #ff6961; // Pastel Red
+$light-blue: #4fc3e8;
+$light-green: #77dd77; // Pastel Green
+$light-ash: #c7c7c7;
+$pink: #e91e63;
+
+//Side Navigation
+$sidenav-width: 200px;
+$sidenav-zero-level-font-size: 1rem;
+$sidenav-zero-level-icon-font-size: 1.1rem;
+$sidenav-font-size: 14px;
+$sidenav-icon-font-size: $sidenav-zero-level-icon-font-size;
+$sidenav-background-light-color: $light-black;
+$sidenav-background-dark-color: $black;
+$sidenav-logo-background-dark-color: $sidenav-background-dark-color;
+$sidenav-text-color: $white;
+$sidenav-a-active: $light-blue;
+$zero-level-padding: 0 8px 0 10px;
+
+//Header Toolbar
+$header-toolbar-color: $sidenav-background-light-color;
+
+//breadcrumb
+$breadcrumb-color: $light-ash;
+$breadcrumb-active-color: $light-blue;
+
+//Side Nav
+$box-shadow-1: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+$box-shadow-2: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+//Header Toolbar
+$box-shadow-3: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+//Page Card
+$box-shadow-4: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);

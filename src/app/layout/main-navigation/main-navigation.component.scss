@@ -1,0 +1,45 @@
+@import "src/variables";
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.app-logo{
+  height: 64px;
+  text-align: center;
+  background-color: $pink;
+  img{
+    padding: 2px;
+    height: 60px;
+    width: auto;
+  }
+}
+.item-separator {
+  margin-bottom: 5px;
+  box-shadow: $box-shadow-1;
+}
+
+
+.footer-toolbar{
+  box-shadow: $box-shadow-3;
+  //background-color: $header-toolbar-color;
+  //p{
+  //  font-size: 0.7rem;
+  //  a{
+  //    color: silver;
+  //  }
+  //}
+}
