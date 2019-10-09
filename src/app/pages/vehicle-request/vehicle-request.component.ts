@@ -1,12 +1,15 @@
-import { Component } from '@angular/core';
-import { FormBuilder, Validators } from '@angular/forms';
+import {Component, OnInit} from '@angular/core';
+import {FormBuilder, FormControl, FormGroup, Validators} from '@angular/forms';
 
 @Component({
   selector: 'app-vehicle-request',
   templateUrl: './vehicle-request.component.html',
   styleUrls: ['./vehicle-request.component.scss']
 })
-export class VehicleRequestComponent {
+export class VehicleRequestComponent implements OnInit{
+
+  // vehicleRequestForm: FormGroup;
+
   vehicleRequestForm = this.fb.group({
     firstName: [null, Validators.required],
     lastName: [null, Validators.required],
@@ -85,6 +88,13 @@ export class VehicleRequestComponent {
   ];
 
   constructor(private fb: FormBuilder) {}
+
+  ngOnInit() {
+    // this.vehicleRequestForm = new FormGroup({
+    //   firstName: new FormControl('', {validators: [Validators.required]}),
+    //   lastName: new FormControl('', {validators: [Validators.required]}),
+    // });
+  }
 
   onSubmit() {
     alert('Thanks!');
